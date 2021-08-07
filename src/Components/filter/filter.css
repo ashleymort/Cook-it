@@ -1,0 +1,27 @@
+.filterButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 60%;
+  margin-top: 5rem;
+}
+
+.buttons {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: transparent;
+}
+.buttons :hover {
+  width: 66px;
+  height: 66px;
+  cursor: pointer;
+}
+.buttons img {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}

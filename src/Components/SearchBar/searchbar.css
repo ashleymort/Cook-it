@@ -1,0 +1,61 @@
+.searchBar {
+  width: 98%;
+  background-color: hsl(209, 13%, 38%);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  border-bottom: 2px solid hsl(230, 92%, 10%);
+  box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
+}
+
+.RedditLogo {
+  float: left;
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+  width: 65px;
+  height: 65px;
+}
+.headingBegin {
+  float: left;
+  padding-left: 0.25rem;
+  padding-top: 1rem;
+  color: hsl(230, 92%, 10%);
+  font-size: 30px;
+}
+.headingEnd {
+  color: hsl(16, 100%, 50%);
+  font-size: 40px;
+  font-family: "Baloo Chettan 2", cursive;
+  font-weight: 200;
+}
+
+.searchBox {
+  float: left;
+  width: 45%;
+  height: 50px;
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  border-radius: 5px;
+  color: rgb(255, 68, 0);
+  background-color: hsla(210, 7%, 78%, 0.992);
+  font-size: 20px;
+  border: 2px solid hsl(230, 92%, 10%);
+  box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
+}
+
+.submitButton {
+  height: 40px;
+  background-color: hsla(210, 32%, 91%, 0.993);
+  color: hsl(231, 91%, 5%);
+  margin-top: 2rem;
+  border-radius: 5px;
+  border: 2px solid hsl(230, 92%, 10%);
+  box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
+  margin-left: -50px;
+}
+
+.searchBox placeholder {
+  color: hsl(231, 91%, 5%);
+}

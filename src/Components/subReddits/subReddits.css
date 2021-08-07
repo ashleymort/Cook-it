@@ -1,0 +1,14 @@
+.subReddits {
+  width: 30%;
+  float: right;
+  background-color: hsl(210, 14%, 53%);
+  margin-top: 2rem;
+  margin-right: 2rem;
+  height: 1000px;
+  border-radius: 5px;
+
+  box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
+}
+.subHeading {
+  color: hsl(230, 92%, 10%);
+}

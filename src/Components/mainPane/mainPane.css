@@ -1,0 +1,8 @@
+.mainPane {
+  width: 60%;
+  box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
+  margin-left: 2rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+  height: 1000px;
+}

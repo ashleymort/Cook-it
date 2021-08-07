@@ -1,9 +1,14 @@
+body {
+  background-color: hsla(210, 7%, 78%, 0.992);
+  font-family: "Open Sans", sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #a2bef7;
+  background-color: rgb(162, 190, 247);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
