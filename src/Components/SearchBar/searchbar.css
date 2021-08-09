@@ -30,10 +30,15 @@
   font-family: "Baloo Chettan 2", cursive;
   font-weight: 200;
 }
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
 
 .searchBox {
   float: left;
-  width: 45%;
+  width: 60%;
   height: 50px;
   margin-top: 1.5rem;
   margin-left: 3rem;
@@ -44,18 +49,21 @@
   border: 2px solid hsl(230, 92%, 10%);
   box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
 }
-
-.submitButton {
-  height: 40px;
-  background-color: hsla(210, 32%, 91%, 0.993);
-  color: hsl(231, 91%, 5%);
-  margin-top: 2rem;
+.subButton {
+  background-color: hsla(210, 7%, 78%, 0.992);
+  width: 52px;
+  height: 50px;
+  margin-top: 1.75rem;
+  margin-right: 3rem;
+  margin-left: 0.5rem;
   border-radius: 5px;
   border: 2px solid hsl(230, 92%, 10%);
   box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
-  margin-left: -50px;
+  font-size: 0.75rem;
+  cursor: pointer;
 }
 
-.searchBox placeholder {
-  color: hsl(231, 91%, 5%);
+.subButton:hover {
+  background-color: hsla(210, 7%, 78%, 0.712);
+  cursor: pointer;
 }

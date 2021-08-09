@@ -10,10 +10,10 @@ import './filter.css';
 function Filter() {
     return (
         <div className="filterButtons">
-            <button className='buttons'><img src={fire} alt="hot logo" /></button>
-            <button className='buttons'><img src={newLogo} alt="new logo" /></button>
-            <button className='buttons'><img src={top} alt="top logo" /></button>
-            <button className='buttons'><img src={rising} alt="rising logo" /></button>
+            <button className='buttons'><img src={fire} alt="hot logo" />Hot</button>
+            <button className='buttons'><img src={newLogo} alt="new logo" />What's New</button>
+            <button className='buttons'><img src={top} alt="top logo" />Top</button>
+            <button className='buttons'><img src={rising} alt="rising logo" />Rising</button>
 
         </div>
     );

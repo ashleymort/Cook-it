@@ -2,6 +2,7 @@
 import React from 'react';
 import reddit from '../icons/reddit.png';
 
+
 import './searchbar.css';
 
 function SearchBar() {
@@ -10,9 +11,10 @@ function SearchBar() {
         <div className='searchBar'>
             <img src={reddit} alt="Reddit logo" className='RedditLogo' />
             <h1 className='headingBegin'><span className='headingEnd'>Reddit</span>Mini</h1>
-            <input className='searchBox' type="text" placeholder=" search" />
-
-
+            <form className="formContainer">
+                <input className='searchBox' type="text" placeholder="search" />
+                <input className='subButton' type="submit" value="search" />
+            </form>
 
         </div>
     );

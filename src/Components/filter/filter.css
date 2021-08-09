@@ -13,6 +13,8 @@
   height: 60px;
   border: none;
   background-color: transparent;
+  color: hsl(230, 92%, 10%);
+  font-weight: 700;
 }
 .buttons :hover {
   width: 66px;
