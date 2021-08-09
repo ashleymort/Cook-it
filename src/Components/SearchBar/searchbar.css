@@ -59,8 +59,9 @@
   border-radius: 5px;
   border: 2px solid hsl(230, 92%, 10%);
   box-shadow: 1px 0px 5px 1px hsl(231, 91%, 5%);
-  font-size: 0.75rem;
-  cursor: pointer;
+  font-size: 1rem;
+  color: hsl(230, 92%, 10%);
+  font-weight: bold;
 }
 
 .subButton:hover {

@@ -13,7 +13,7 @@ function SearchBar() {
             <h1 className='headingBegin'><span className='headingEnd'>Reddit</span>Mini</h1>
             <form className="formContainer">
                 <input className='searchBox' type="text" placeholder="search" />
-                <input className='subButton' type="submit" value="search" />
+                <input className='subButton' type="submit" value="GO!" />
             </form>
 
         </div>
